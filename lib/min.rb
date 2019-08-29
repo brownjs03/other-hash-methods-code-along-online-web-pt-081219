@@ -10,5 +10,5 @@ require 'pry'
 
 def get_the_min(groceries)
 groceries.values.flatten.min 
-return groceries.values
+return groceries.values.join
 end
